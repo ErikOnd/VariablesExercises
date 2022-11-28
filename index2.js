@@ -12,7 +12,8 @@ let eggsCheese = (eggYolks * 18) + cheese;
 let eggsCheeseLittlePepper = eggsCheese + blackPaper / 4;
 
 //subtracting the taken amount 
-blackPaper -= -1;
+blackPaper += -1;
+console.log(blackPaper)
 
 //cooked spaghetti weight is 1:1,5 
 spaghetti += spaghetti * 1.5;
